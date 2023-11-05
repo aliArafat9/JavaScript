@@ -10,6 +10,6 @@ myName = 8
 
 
 
-console.log("Hello world this is Arafat Ali");
+console.log("Hello world this is Arafat");
 console.table({Arafat: 'This',marks:23})
 
