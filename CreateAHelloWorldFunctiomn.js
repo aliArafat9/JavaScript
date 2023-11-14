@@ -4,5 +4,9 @@ var createHelloWorld = function() {
     }
 };
 
-// Calling createHelloWorld to get the inner function and then calling it
-console.log(createHelloWorld()); // Output: Hello World
+// Call the functions
+var helloWorldFunction = createHelloWorld();
+var result = helloWorldFunction();
+
+// Print the result
+console.log(result);
