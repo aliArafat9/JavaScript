@@ -17,7 +17,7 @@ function isPrime(number) {
 }
 
 // Example usage:
-const numberToCheck = 11101;
+const numberToCheck = 111;
 if (isPrime(numberToCheck)) {
     console.log(`${numberToCheck} is a prime number.`);
 } else {
