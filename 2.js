@@ -1,25 +1,8 @@
-function isPrime(number) {
-    // Check if the number is less than 2, as 0 and 1 are not prime
-    if (number < 2) {
-        return false;
-    }
-
-    // Loop from 2 to the square root of the number
-    for (let i = 2; i <= Math.sqrt(number); i++) {
-        // If the number is divisible by any other number, it's not prime
-        if (number % i === 0) {
-            return false;
-        }
-    }
-
-    // If no divisors are found, the number is prime
-    return true;
+let sum = 0;
+// let n = prompt("Enter the value of n")
+let n = 4
+n = Number.parseInt(n)
+for(i=0; i<n; i++) {
+    sum += (i+1)
 }
-
-// Example usage:
-const numberToCheck = 1121;
-if (isPrime(numberToCheck)) {
-    console.log(`${numberToCheck} is a prime number.`);
-} else {
-    console.log(`${numberToCheck} is not a prime number.`);
-}
+console.log("Sum of first " + n + " numbers is equals to "+ sum)
